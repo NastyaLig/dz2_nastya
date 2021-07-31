@@ -226,7 +226,34 @@ html {
     margin-right: 20px;
 } 
 
+/* Why you choose us! */
 
+.container-why {
+    max-width: 849px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.choose {
+    font-family: Gelasio;
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 140%;
+    color: #081F32;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.choose-description {
+    font-family: Roboto;
+    font-size: 1.8rem;
+    line-height: 160%;
+    text-align: center;
+    color: #081F32;
+    opacity: 0.6;
+    margin-bottom: 60px;
+}
 
 @media screen and (max-width: 767px) {
 
