@@ -1,0 +1,319 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Gelasio', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 10px;
+    font-weight: 400;
+    font-size: normal;
+    color: #081F32;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.header_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo_link {
+    text-decoration: none;
+}
+
+.nav_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_li {
+    padding: 15px;
+    list-style-type: none; 
+}
+
+.nav_home {
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #1B75BB;
+    text-decoration: none;
+}
+
+.nav_menu {
+    text-decoration: none;    
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #081F32;
+    opacity: 0.7;
+}
+
+ .book {
+    list-style: none;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color:#1B75BB;
+    padding: 15px;
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+
+
+/* FIRST SECTION */
+.first_section {
+    background-image: url("../imgs/main-bg.jpg");
+    min-height: 690px;
+    padding: 22rem 0 0;
+}
+.serenity {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1B75BB;
+    opacity: 0.8;
+    padding-bottom: 50px;
+}
+
+.first_section_title {
+    font-family: Gelasio;
+    font-style: normal;
+    font-size: 5.7rem;
+    max-width: 45.6rem;
+    margin: 0 0 2rem;
+}
+
+.home {
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 5.7rem;
+    line-height: 120%;
+    color: #1B75BB;
+}
+
+.first_section_text {
+    font-size: 1.8rem;
+    max-width: 34rem;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    color: #081F32;
+    opacity: 0.6;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.read {
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #1B75BB;
+    padding: 15px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+/* find */
+
+ .find {
+    padding-bottom: 100px;
+    }
+
+.additional {
+    position: relative;
+    top: -20px;
+    left: 0px;
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 10px;
+    max-width: 687px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_find {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.find_border {
+    padding: 30px;
+    list-style-type: none;
+}
+
+.cheeks::after {
+    content: " ";
+    background: #9DACB8;
+    width: 2px;
+    height: 30px;
+    float: right;
+    margin-right: 10px;
+    
+}
+
+.cheeks {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 160%;
+    color: #081F32;
+    padding-bottom: 5px;
+}
+
+.explain {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 160%;
+    color: #081F32;
+    opacity: 0.8;
+}
+
+.find_room {
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #1B75BB;
+    padding: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+    margin-right: 20px;
+} 
+
+
+
+@media screen and (max-width: 767px) {
+
+    .first_section_title {
+        font-size: 4.7rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .first_section_title {
+        font-size: 2.7rem;
+    }
+}
+
+
+/* HOLIAYS */
+.holidays {
+    display: flex;
+    padding: 30px;
+    margin-bottom: 70px;
+}
+
+.holidays_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.holidays_imgs {
+    position: relative;
+}
+
+.holidays_img_main {
+    position: relative;
+    z-index: 1;
+}
+
+.holidays_img_sec {
+    position: absolute;
+    top: -50px;
+    right: -60px;
+}
+
+.holidays_img_ripples {
+    position: absolute;
+    left: -30px;
+    bottom: -30px;
+}
+
+.holidays_content {
+    max-width: 100%;
+    padding-top: 37px ;
+    padding-bottom: 37px;
+    padding-left: 100px;
+}
+
+.dream {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1B75BB;
+    opacity: 0.8;
+    padding-bottom: 20px;
+}
+
+.holidays_title {
+    font-family: Gelasio;
+    font-size: 3.2rem;
+    line-height: 140%;
+    color: #081F32;
+    padding-bottom: 30px;
+}
+
+.view {
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #1B75BB;
+    padding: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}
